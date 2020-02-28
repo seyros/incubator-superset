@@ -3127,6 +3127,18 @@
          "Changed on": [
             "Изменено"
          ],
+         "See table schema": [
+            "См. схему таблицы"
+         ],
+         "Select table": [
+            "Выберите таблицу"
+         ],
+         "Select table or type table name": [
+            "Выберите таблицу или введите имя таблицы"
+         ],
+         "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.": [
+            "-- Примечание: Если вы не сохраните запрос, эти вкладки не будут сохраняться, если вы очистите файлы cookie или измените браузеры."
+         ],
          "Saved Queries": [
             "Сохраненные запросы"
          ]

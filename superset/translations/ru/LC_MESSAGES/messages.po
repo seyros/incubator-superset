@@ -4849,3 +4849,23 @@ msgstr "Изменено"
 #: superset/views/sql_lab.py:79
 msgid "Saved Queries"
 msgstr "Сохраненные запросы"
+
+#: superset-frontend/src/components/TableSelector.jsx:372
+msgid "See table schema"
+msgstr "См. схему таблицы"
+
+#: superset-frontend/src/components/TableSelector.jsx:372
+msgid "See table schema"
+msgstr "См. схему таблицы"
+
+#: superset-frontend/src/components/TableSelector.jsx:329
+msgid "Select table"
+msgstr "Выберите таблицу"
+
+#: superset-frontend/src/components/TableSelector.jsx:339
+msgid "Select table or type table name"
+msgstr "Выберите таблицу или введите имя таблицы"
+
+#: superset-frontend/src/components/TableSelector.jsx:216
+msgid "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers."
+msgstr "-- Примечание: Если вы не сохраните запрос, эти вкладки не будут сохраняться, если вы очистите файлы cookie или измените браузеры."
