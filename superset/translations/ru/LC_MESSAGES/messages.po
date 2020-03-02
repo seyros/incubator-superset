@@ -662,9 +662,9 @@ msgstr "Не получилось прервать запрос."
 msgid "Error occurred while fetching table metadata"
 msgstr "Произошла ошибка при получении метаданных из таблицы"
 
-#: superset/assets/javascripts/SqlLab/actions.js:372
-msgid "shared query"
-msgstr "общий запрос"
+#: superset-frontend/src/SqlLab/components/ShareSqlLabQuery.jsx
+msgid "Share Query"
+msgstr "Общий запрос"
 
 #: superset/assets/javascripts/SqlLab/actions.js:380
 #: superset/assets/javascripts/SqlLab/actions.js:400
@@ -1011,6 +1011,10 @@ msgstr "Убрать предпросмотр таблицы"
 #: superset/assets/javascripts/SqlLab/components/TemplateParamsEditor.jsx:102
 msgid "Template Parameters"
 msgstr "Параметры шаблона"
+
+#: superset-frontend/src/SqlLab/components/TemplateParamsEditor.jsx:127
+msgid "parameters"
+msgstr "Параметры"
 
 #: superset/assets/javascripts/SqlLab/components/TemplateParamsEditor.jsx:106
 msgid "Edit template parameters"
@@ -4869,3 +4873,13 @@ msgstr "Выберите таблицу или введите имя табли�
 #: superset-frontend/src/components/TableSelector.jsx:216
 msgid "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers."
 msgstr "-- Примечание: Если вы не сохраните запрос, эти вкладки не будут сохраняться, если вы очистите файлы cookie или измените браузеры."
+
+#: superset-frontend/src/components/TableSelector.jsx:364
+msgid "Force refresh table list"
+msgstr "Принудительное обновление списка таблиц"
+
+#: superset-frontend/src/components/TableSelector.jsx:316
+msgid "Force refresh schema list"
+msgstr "Принудительное обновление списка схем"
+
+

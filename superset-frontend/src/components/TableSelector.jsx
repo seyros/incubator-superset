@@ -326,7 +326,7 @@ export default class TableSelector extends React.PureComponent {
     ) {
       tableSelectPlaceholder = t('Type to search ...');
     } else {
-      tableSelectPlaceholder = t('Select table ');
+      tableSelectPlaceholder = t('Select table');
       tableSelectDisabled = true;
     }
     const options = this.state.tableOptions;

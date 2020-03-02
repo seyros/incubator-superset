@@ -445,8 +445,8 @@
          "Copy of %s": [
             "Копирование %s"
          ],
-         "share query": [
-            "Скопировать запрос"
+         "Share Query": [
+            "Общий запрос"
          ],
          "copy URL to clipboard": [
             "скопировать ссылку в буфер обмена"
@@ -655,6 +655,9 @@
          "Remove table preview": [
             "Убрать предпросмотр таблицы"
          ],
+         "parameters": [
+            "Параметры"
+         ],
          "Template Parameters": [
             "Параметры шаблона"
          ],
@@ -775,11 +778,17 @@
          "Force Refresh": [
             "Принудительное обновление"
          ],
+         "Force refresh schema list": [
+            "Принудительное обновление списка схем"
+         ],
+         "Force refresh table list": [
+            "Принудительное обновление списка таблиц"
+         ],
          "Force refresh the whole dashboard": [
             "Принудительно обновить отчет"
          ],
          "Set autorefresh": [
-            "Интервал обновления"
+            "Интервал автообновления"
          ],
          "Set the auto-refresh interval for this session": [
             "Установите интервал автоматического обновления для этого сеанса"

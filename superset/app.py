@@ -226,7 +226,7 @@ class SupersetAppInitializer:
         appbuilder.add_view(
             SliceModelView,
             "Charts",
-            label=__("Чарты"),
+            label=__("Графики"),
             icon="fa-bar-chart",
             category="",
             category_icon="",
@@ -234,7 +234,7 @@ class SupersetAppInitializer:
         appbuilder.add_view(
             DashboardModelView,
             "Dashboards",
-            label=__("Дашборд"),
+            label=__("Отчёты"),
             icon="fa-dashboard",
             category="",
             category_icon="",
@@ -299,7 +299,7 @@ class SupersetAppInitializer:
         #
         appbuilder.add_link(
             "Import Dashboards",
-            label=__("Импрт дашбордов"),
+            label=__("Импрт отчётов"),
             href="/superset/import_dashboards",
             icon="fa-cloud-upload",
             category="Manage",
@@ -364,7 +364,7 @@ class SupersetAppInitializer:
             appbuilder.add_view(
                 DashboardEmailScheduleView,
                 "Dashboard Email Schedules",
-                label=__("Электронная почта дашборда"),
+                label=__("Электронная почта отчётаа"),
                 category="Manage",
                 category_label=__("Управление"),
                 icon="fa-search",
@@ -372,7 +372,7 @@ class SupersetAppInitializer:
             appbuilder.add_view(
                 SliceEmailScheduleView,
                 "Chart Emails",
-                label=__("Расписание электронной почты чартов"),
+                label=__("Расписание электронной почты графиков"),
                 category="Manage",
                 category_label=__("Управление"),
                 icon="fa-search",
