@@ -23,10 +23,10 @@ from superset.views.dashboard.filters import DashboardFilter
 
 class SliceMixin:  # pylint: disable=too-few-public-methods
 
-    list_title = _("Charts")
-    show_title = _("Show Chart")
-    add_title = _("Add Chart")
-    edit_title = _("Edit Chart")
+    list_title = _("Графики")
+    show_title = _("Смотреть графики")
+    add_title = _("Добавить график")
+    edit_title = _("Редактировать график")
 
     can_add = False
     search_columns = (
@@ -74,18 +74,18 @@ class SliceMixin:  # pylint: disable=too-few-public-methods
     }
     base_filters = [["id", SliceFilter, lambda: []]]
     label_columns = {
-        "cache_timeout": _("Cache Timeout"),
-        "creator": _("Creator"),
-        "dashboards": _("Dashboards"),
-        "datasource_link": _("Datasource"),
-        "description": _("Description"),
-        "modified": _("Last Modified"),
-        "owners": _("Owners"),
-        "params": _("Parameters"),
-        "slice_link": _("Chart"),
-        "slice_name": _("Name"),
-        "table": _("Table"),
-        "viz_type": _("Visualization Type"),
+        "cache_timeout": _("Таймаут кеша"),
+        "creator": _("Автор"),
+        "dashboards": _("Отчёты"),
+        "datasource_link": _("Источник данных"),
+        "description": _("Описание"),
+        "modified": _("Изменено"),
+        "owners": _("Владельцы"),
+        "params": _("Параметры"),
+        "slice_link": _("Графики"),
+        "slice_name": _("Имя"),
+        "table": _("Таблица"),
+        "viz_type": _("Тип визуализации"),
     }
 
     add_form_query_rel_fields = {"dashboards": [["name", DashboardFilter, None]]}

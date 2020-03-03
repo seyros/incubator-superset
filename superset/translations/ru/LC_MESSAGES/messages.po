@@ -754,6 +754,7 @@ msgid "[Query Status]"
 msgstr "[Статус запроса]"
 
 #: superset/assets/javascripts/SqlLab/components/QuerySearch.jsx:188
+#: superset-frontend/src/welcome/Welcome.jsx:75
 msgid "Search"
 msgstr "Поиск"
 
@@ -859,6 +860,7 @@ msgstr "Метка для вашего запроса"
 #: superset/connectors/sqla/views.py:78 superset/connectors/sqla/views.py:129
 #: superset/connectors/sqla/views.py:227 superset/views/core.py:449
 #: superset/views/sql_lab.py:55
+#: superset/views/annotations.py:109
 msgid "Description"
 msgstr "Описание"
 
@@ -1341,6 +1343,7 @@ msgstr "К сожалению, возникла ошибка при добавл
 
 #: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:163
 #: superset/views/core.py:454
+#: superset/views/annotations.py:109
 msgid "Name"
 msgstr "Название"
 
@@ -1554,8 +1557,13 @@ msgid "Check out this slice: %s"
 msgstr "Проверка диаграммы: %s"
 
 #: superset/assets/javascripts/explore/components/controls/AnnotationLayerControl.jsx:147
+#: superset/views/annotations.py:102
 msgid "Add Annotation Layer"
 msgstr "Добавить слой аннотации"
+
+#: superset/views/annotations.py:102
+msgid "Edit Annotation Layer"
+msgstr "Редактировать слой аннотации"
 
 #: superset/assets/javascripts/explore/components/controls/BoundsControl.jsx:50
 msgid "`Min` value should be numeric or empty"
@@ -4882,4 +4890,75 @@ msgstr "Принудительное обновление списка табл�
 msgid "Force refresh schema list"
 msgstr "Принудительное обновление списка схем"
 
+#: superset/assets/src/welcome/App.jsx:47
+#: superset/assets/src/welcome/App.jsx:50
+msgid "Recently Viewed"
+msgstr "Недавно просмотренные"
 
+#: superset-frontend/src/components/ListView/ListView.tsx:343
+msgid "showing"
+msgstr "показаны"
+
+#: superset-frontend/src/components/ListView/ListView.tsx:348
+msgid "of"
+msgstr "из"
+
+#: button 'Refresh' on page /users/list/
+msgid "Refresh"
+msgstr "Обновить"
+
+#: superset-frontend/src/components/ListView/ListView.tsx:152
+msgid "Filter List"
+msgstr "Список фильтров"
+
+#: superset-frontend/src/components/ListView/ListView.tsx:218
+msgid "Select Value"
+msgstr "Укажите значение"
+
+#: superset/views/annotations.py:51
+msgid "List Annotation"
+msgstr "Список аннотаций"
+
+#: superset/views/annotations.py:52
+msgid "Show Annotation"
+msgstr "Просмотр аннотации"
+
+#: superset/views/annotations.py:53
+msgid "Add Annotation"
+msgstr "Добавить аннотацию"
+
+#: superset/views/annotations.py:54
+msgid "Edit Annotation"
+msgstr "Редактировать аннотацию"
+
+#: superset/views/annotations.py:69
+msgid "Layer"
+msgstr "Слой"
+
+#: superset/views/annotations.py:70
+msgid "Short Descr"
+msgstr "Краткое описание"
+
+#: superset/views/annotations.py:71
+msgid "Start Dttm"
+msgstr "Время старта"
+
+#: superset/views/annotations.py:72
+msgid "End Dttm"
+msgstr "Время завершения"
+
+#: superset/views/annotations.py:73
+msgid "Long Descr"
+msgstr "Полное описание"
+
+#: superset/views/annotations.py:100
+msgid "List Annotation Layer"
+msgstr "Список слоёв аннотаций"
+
+#: superset/views/annotations.py:101
+msgid "Show Annotation Layer"
+msgstr "Просмотр слоя аннотации"
+
+#: superset/views/annotations.py:103
+msgid "Edit Annotation Layer"
+msgstr "Редактирование слоя аннотации"

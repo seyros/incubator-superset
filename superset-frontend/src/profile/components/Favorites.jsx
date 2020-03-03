@@ -49,7 +49,7 @@ export default class Favorites extends React.PureComponent {
       <TableLoader
         dataEndpoint={`/superset/fave_slices/${this.props.user.userId}/`}
         className="table table-condensed"
-        columns={['slice', 'creator', 'favorited']}
+        columns={[t('slice'), t('creator'), t('favorited')]}
         mutator={mutator}
         noDataText={t('No favorite charts yet, go click on stars!')}
         sortable
@@ -69,7 +69,7 @@ export default class Favorites extends React.PureComponent {
         mutator={mutator}
         dataEndpoint={`/superset/fave_dashboards/${this.props.user.userId}/`}
         noDataText={t('No favorite dashboards yet, go click on stars!')}
-        columns={['dashboard', 'creator', 'favorited']}
+        columns={[t('dashboard'), t('creator'), t('favorited')]}
         sortable
       />
     );

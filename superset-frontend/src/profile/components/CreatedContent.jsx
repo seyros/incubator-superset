@@ -48,7 +48,7 @@ class CreatedContent extends React.PureComponent {
       <TableLoader
         dataEndpoint={`/superset/created_slices/${this.props.user.userId}/`}
         className="table table-condensed"
-        columns={['slice', 'favorited']}
+        columns={[t('slice'), t('favorited')]}
         mutator={mutator}
         noDataText={t('No charts')}
         sortable

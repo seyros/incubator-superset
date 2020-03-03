@@ -215,7 +215,7 @@ const ListView: FunctionComponent<Props> = ({
                         searchable
                         name={`filter-${filter.id}-select`}
                         options={filter.selects}
-                        placeholder="Select Value"
+                        placeholder={t('Select Value')}
                         value={ft.value}
                         selectComponent={SelectComponent}
                         onChange={(e: Select[] | null) => {

@@ -775,6 +775,9 @@
          "Save as": [
             "Сохранить как"
          ],
+         "Refresh": [
+            "Обновить"
+         ],
          "Force Refresh": [
             "Принудительное обновление"
          ],
@@ -948,6 +951,9 @@
          ],
          "description": [
             "описание"
+         ],
+         "Description": [
+            "Описание"
          ],
          "bolt": [
             ""
@@ -3148,8 +3154,59 @@
          "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.": [
             "-- Примечание: Если вы не сохраните запрос, эти вкладки не будут сохраняться, если вы очистите файлы cookie или измените браузеры."
          ],
+         "Recently Viewed": [
+            "Недавно просмотренные"
+         ],
+         "showing": [
+            "показаны"
+         ],
+         "of": [
+            "из"
+         ],
+         "Filter List": [
+            "Список фильтров"
+         ],
+         "Select Value": [
+            "Укажите значение"
+         ],
+         "List Annotation": [
+            "Список аннотаций"
+         ],
+         "Show Annotation": [
+            "Просмотр аннотации"
+         ],
+         "Add Annotation": [
+            "Добавить аннотацию"
+         ],
+         "Edit Annotation": [
+            "Редактировать аннотацию"
+         ],
          "Saved Queries": [
             "Сохраненные запросы"
+         ],
+         "Layer": [
+            "Слой"
+         ],
+         "Short Descr": [
+            "Краткое описание"
+         ],
+         "Start Dttm": [
+            "Время старта"
+         ],
+         "End Dttm": [
+            "Время завершения"
+         ],
+         "Long Descr": [
+            "Полное описание"
+         ],
+         "List Annotation Layer": [
+            "Список слоёв аннотаций"
+         ],
+         "Show Annotation Layer": [
+            "Просмотр слоя аннотации"
+         ],
+         "Edit Annotation Layer": [
+            "Редактирование слоя аннотации"
          ]
       }
    }
