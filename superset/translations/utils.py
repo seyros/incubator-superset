@@ -19,7 +19,8 @@ import os
 from typing import Any, Dict
 
 # Global caching for JSON language packs
-ALL_LANGUAGE_PACKS: Dict[str, Dict[Any, Any]] = {"en": {}}
+ALL_LANGUAGE_PACKS: Dict[str, Dict[Any, Any]] = {"ru": {}}
+# ALL_LANGUAGE_PACKS: Dict[str, Dict[Any, Any]] = {"en": {}}
 
 DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -29,8 +30,8 @@ def get_language_pack(locale):
 
     Returns the langugage pack from cache if it exists, caches otherwise
 
-    >>> get_language_pack('fr')['Dashboards']
-    "Tableaux de bords"
+    >>> get_language_pack('ru')['Dashboards']
+    "Отчёты"
     """
     pack = ALL_LANGUAGE_PACKS.get(locale)
     if not pack:
