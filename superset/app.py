@@ -189,44 +189,44 @@ class SupersetAppInitializer:
         appbuilder.add_view(
             AnnotationLayerModelView,
             "Annotation Layers",
-            label=__("Слои аннотаций"),
+            label=__("Annotation Layers"),
             icon="fa-comment",
             category="Manage",
-            category_label=__("Управление"),
+            category_label=__("Manage"),
             category_icon="",
         )
         appbuilder.add_view(
             AnnotationModelView,
             "Annotations",
-            label=__("Аннотации"),
+            label=__("Annotations"),
             icon="fa-comments",
             category="Manage",
-            category_label=__("Управление"),
+            category_label=__("Manage"),
             category_icon="",
         )
         appbuilder.add_view(
             DatabaseView,
             "Databases",
-            label=__("Базы данных"),
+            label=__("Databases"),
             icon="fa-database",
             category="Sources",
-            category_label=__("Источники"),
+            category_label=__("Sources"),
             category_icon="fa-database",
         )
         appbuilder.add_link(
             "Tables",
-            label=__("Таблицы"),
+            label=__("Tables"),
             href="/tablemodelview/list/?_flt_1_is_sqllab_view=y",
             icon="fa-table",
             category="Sources",
-            category_label=__("Источники"),
+            category_label=__("Sources"),
             category_icon="fa-table",
         )
         appbuilder.add_separator("Sources")
         appbuilder.add_view(
             SliceModelView,
             "Charts",
-            label=__("Графики"),
+            label=__("Charts"),
             icon="fa-bar-chart",
             category="",
             category_icon="",
@@ -234,7 +234,7 @@ class SupersetAppInitializer:
         appbuilder.add_view(
             DashboardModelView,
             "Dashboards",
-            label=__("Отчёты"),
+            label=__("Dashboards"),
             icon="fa-dashboard",
             category="",
             category_icon="",
@@ -242,27 +242,27 @@ class SupersetAppInitializer:
         appbuilder.add_view(
             CssTemplateModelView,
             "CSS Templates",
-            label=__("CSS-шаблоны"),
+            label=__("CSS Templates"),
             icon="fa-css3",
             category="Manage",
-            category_label=__("Управление"),
+            category_label=__("Manage"),
             category_icon="",
         )
         appbuilder.add_view(
             QueryView,
             "Queries",
-            label=__("Запросы"),
+            label=__("Queries"),
             category="Manage",
-            category_label=__("Управление"),
+            category_label=__("Manage"),
             icon="fa-search",
         )
         if self.config["ENABLE_ROW_LEVEL_SECURITY"]:
             appbuilder.add_view(
                 RowLevelSecurityFiltersModelView,
                 "Row Level Security Filters",
-                label=__("Фильтры безопасности на уровне строк"),
+                label=__("Row Level Security Filters"),
                 category="Security",
-                category_label=__("Безопасность"),
+                category_label=__("Security"),
                 icon="fa-lock",
             )
 
@@ -299,46 +299,46 @@ class SupersetAppInitializer:
         #
         appbuilder.add_link(
             "Import Dashboards",
-            label=__("Импрт отчётов"),
+            label=__("Import Dashboards"),
             href="/superset/import_dashboards",
             icon="fa-cloud-upload",
             category="Manage",
-            category_label=__("Управление"),
+            category_label=__("Manage"),
             category_icon="fa-wrench",
         )
         appbuilder.add_link(
             "SQL Editor",
-            label=__("SQL-редактор"),
+            label=__("SQL Editor"),
             href="/superset/sqllab",
             category_icon="fa-flask",
             icon="fa-flask",
             category="SQL Lab",
-            category_label=__("SQL-лаборатория"),
+            category_label=__("SQL Lab"),
         )
         appbuilder.add_link(
             "Saved Queries",
-            label=__("Сохраненные запросы"),
+            label=__("Saved Queries"),
             href="/sqllab/my_queries/",
             icon="fa-save",
             category="SQL Lab",
-            category_label=__("SQL-лаборатория"),
+            category_label=__("SQL Lab"),
         )
         appbuilder.add_link(
             "Query Search",
-            label=__("Поиск запроса"),
+            label=__("Query Search"),
             href="/superset/sqllab#search",
             icon="fa-search",
             category_icon="fa-flask",
             category="SQL Lab",
-            category_label=__("SQL-лаборатория"),
+            category_label=__("SQL Lab"),
         )
         appbuilder.add_link(
             "Upload a CSV",
-            label=__("Загрузка CSV"),
+            label=__("Upload a CSV"),
             href="/csvtodatabaseview/form",
             icon="fa-upload",
             category="Sources",
-            category_label=__("Источники"),
+            category_label=__("Sources"),
             category_icon="fa-wrench",
         )
 
@@ -350,9 +350,9 @@ class SupersetAppInitializer:
             appbuilder.add_view(
                 LogModelView,
                 "Action Log",
-                label=__("Лог действий"),
+                label=__("Action Log"),
                 category="Security",
-                category_label=__("Безопасность"),
+                category_label=__("Security"),
                 icon="fa-list-ol",
             )
 
@@ -364,17 +364,17 @@ class SupersetAppInitializer:
             appbuilder.add_view(
                 DashboardEmailScheduleView,
                 "Dashboard Email Schedules",
-                label=__("Электронная почта отчётаа"),
+                label=__("Dashboard Email Schedules"),
                 category="Manage",
-                category_label=__("Управление"),
+                category_label=__("Manage"),
                 icon="fa-search",
             )
             appbuilder.add_view(
                 SliceEmailScheduleView,
                 "Chart Emails",
-                label=__("Расписание электронной почты графиков"),
+                label=__("Chart Emails"),
                 category="Manage",
-                category_label=__("Управление"),
+                category_label=__("Manage"),
                 icon="fa-search",
             )
 
@@ -385,9 +385,9 @@ class SupersetAppInitializer:
             appbuilder.add_view(
                 AccessRequestsModelView,
                 "Access requests",
-                label=__("Запросы доступа"),
+                label=__("Access requests"),
                 category="Security",
-                category_label=__("Безопасность"),
+                category_label=__("Security"),
                 icon="fa-table",
             )
 
@@ -399,9 +399,9 @@ class SupersetAppInitializer:
             appbuilder.add_view(
                 DruidDatasourceModelView,
                 "Druid Datasources",
-                label=__("Источники данных Druid"),
+                label=__("Druid Datasources"),
                 category="Sources",
-                category_label=__("Источники"),
+                category_label=__("Sources"),
                 icon="fa-cube",
             )
             appbuilder.add_view(
@@ -410,7 +410,7 @@ class SupersetAppInitializer:
                 label=__("Кластеры Druid"),
                 icon="fa-cubes",
                 category="Sources",
-                category_label=__("Источники"),
+                category_label=__("Sources"),
                 category_icon="fa-database",
             )
             appbuilder.add_view_no_menu(DruidMetricInlineView)
@@ -423,7 +423,7 @@ class SupersetAppInitializer:
                     label=__("Сканирование новых источников данных"),
                     href="/druid/scan_new_datasources/",
                     category="Sources",
-                    category_label=__("Источники"),
+                    category_label=__("Sources"),
                     category_icon="fa-database",
                     icon="fa-refresh",
                 )
@@ -432,7 +432,7 @@ class SupersetAppInitializer:
                     label=__("Обновить метаданные Druid"),
                     href="/druid/refresh_datasources/",
                     category="Sources",
-                    category_label=__("Источники"),
+                    category_label=__("Sources"),
                     category_icon="fa-database",
                     icon="fa-cog",
                 )
